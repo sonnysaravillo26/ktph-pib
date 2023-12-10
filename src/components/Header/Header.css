@@ -1,20 +1,93 @@
 /* Header.css */
+.header-this-icon .header-icon-view {
+  width: 100%;
+}
+.header-this-icon {
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 165px;
+  height: 165px; 
+  float: right;
+}
+.header-icons {
+  /* background-color: blue; */
+  padding-left: 10px;
+  width: 675px; /**-10px = 675*/
+  height: 100%;
+  float: right;
+}
+.header-name .header-patient-name {
+  /* background-color: red;  */
+  height: 140px;
+}
+.header-name .header-patient-location {
+  font-size: 45px;
+  font-weight: 500;
+  text-align: left;
+}
+.header-name .header-patient-name {
+  font-size: 70px;
+  font-weight: 400;
+  text-align: left;
+}
+.header-name {
+  /* background-color: red; */
+  float: left;
+  padding-left: 20px;
+  width: 955px; /**-20p = 955*/
+  height: 100%;
+  display: block;
+}
+.header-bed-content .bed-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.header-bed-content .bed-number {
+  font-size: 90px;
+  font-weight: 800;
+  margin-top: -10px;
+}
+.header-bed-content {
+  display: block;
+  letter-spacing: 5px;
+}
+.header-bed {
+  background-color: #1b3b86;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+  float: left;
+  height: 100%;
+  width: 255px;
+  color: white;
+}
+.header-content-mid2 {
+  display: flex;
+  height: 100%;
+  align-items: center;  
+}
+.header-content-mid {
+  display: flex;
+  justify-content: center;  
+  align-items: center;  
+}
 .header {
-    text-align: center;
-    padding: 2rem;
-    background-color: #333;
-    color: white;
-    animation: fadeInUp 1s ease;
+  /**change later - so*/
+  /* background-color: gray; */
+  color: black;
+  animation: fadeInUp 1s ease;
+  height: 214px;
+}
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  @keyframes fadeInUp {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
+}

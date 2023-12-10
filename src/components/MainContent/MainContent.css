@@ -1,30 +1,35 @@
 /* MainContent.css */
 .main-content {
-    text-align: center;
-    padding: 3rem;
-    background-color: #eee;
-    animation: fadeIn 1s ease;
+  text-align: center; 
+  background-color: green; /**remove later - so*/
+  animation: fadeIn 1s ease;
+  
+  height: 795px;
+}
+
+.main-content p {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  } 
-  
-  /* Responsive styles */
-  @media only screen and (max-width: 600px) {
-    .main-content {
-      padding: 2rem;
-    }
+  to {
+    opacity: 1;
   }
-  
-  @media only screen and (max-width: 400px) {
-    .main-content {
-      padding: 1rem;
-    }
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .main-content {
+    padding: 2rem;
   }
-  
+}
+
+@media only screen and (max-width: 400px) {
+  .main-content {
+    padding: 1rem;
+  }
+}
