@@ -1,6 +1,8 @@
 // Header.js
 import React from "react";
 import "./Header.css";
+import imgSample from "../../img/Header-icon.png";
+import imgPinLocation from "../../img/PinLocation-icon.png";
 
 function Header() {
   return (
@@ -17,25 +19,35 @@ function Header() {
           Saravillo Sonny Barrientos
         </h1>
         <h1 className="header-patient-location">
-          <span class="header-patient-location-icon"> icon </span>
-          <span class="header-patient-location-text"> Admission Block </span>
+          <span className="header-patient-location-icon">
+            <img src={imgPinLocation} alt="Pin location" height={50}/>
+          </span>
+          <span className="header-patient-location-text"> Admission Block </span>
         </h1>
       </div>
 
       <div className="header-icons">
-        {/* maximum of 4 icons, justify right */} 
-          <h1 className="header-this-icon header-content-mid2">
-            <span class="header-icon-view"> 1 </span>
-          </h1>  
-          <h1 className="header-this-icon header-content-mid2">
-            <span class="header-icon-view"> 2 </span>
-          </h1>  
-          <h1 className="header-this-icon header-content-mid2">
-            <span class="header-icon-view"> 3 </span>
-          </h1>  
-          <h1 className="header-this-icon header-content-mid2">
-            <span class="header-icon-view"> 4 </span>
-          </h1>  
+        {/* maximum of 4 icons, justify right */}
+        <h1 className="header-this-icon header-content-mid2">
+          <span className="header-icon-view">
+            <img src={imgSample} alt="header icon reference"/>
+          </span>
+        </h1>
+        <h1 className="header-this-icon header-content-mid2">
+          <span className="header-icon-view">
+            <img src={imgSample} alt="header icon reference" />
+          </span>
+        </h1>
+        <h1 className="header-this-icon header-content-mid2">
+          <span className="header-icon-view">
+            <img src={imgSample} alt="header icon reference" />
+          </span>
+        </h1>
+        <h1 className="header-this-icon header-content-mid2">
+          <span className="header-icon-view">
+            <img src={imgSample} alt="header icon reference" />
+          </span>
+        </h1>
       </div>
     </header>
   );

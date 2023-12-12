@@ -1,10 +1,30 @@
 /* MainContent.css */
+.PartitionA {
+  float: left;
+  display: block;
+  width: 545px;
+  height: 100%; 
+  /* background-color: #e8f1dc; */
+  background: rgba(232, 241, 220, 0.7);
+  border-top-right-radius: 20px;
+}
+
+.PartitionB {
+  float: right;
+  display: block;
+  width: 1353px;
+  height: 100%; 
+  /* background-color: #e8f1dc; */
+  background: rgba(192, 192, 192, 0.3); 
+  border-top-left-radius: 20px; 
+}
+
 .main-content {
-  text-align: center; 
-  background-color: green; /**remove later - so*/
+  text-align: center;
+  /* background-color: green; *remove later - so */
   animation: fadeIn 1s ease;
-  
-  height: 795px;
+  /**Main content 795px + footer 71px;*/
+  height: 866px;
 }
 
 .main-content p {

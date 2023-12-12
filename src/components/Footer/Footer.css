@@ -1,12 +1,28 @@
 /* Footer.css */
-.footer {
-  text-align: center; 
-  background-color: #333;
-  color: white;
-  animation: fadeInUp 1s ease;
-
+.footer-left-content {
+  color: black;
+  width: 545px; /**based on partitionA*/  
+  display: block;
+  background-color: red; /**remove later*/
+  height: 100%;
+  float: left;
+}
+.footer-blocker { 
+  width: 1353px; /**based on partitionB*/
+  height: 100%;
+  display: block; 
+  background-color: rgb(0, 0, 0); 
+  margin-left:23px;
+  float: left;
+}
+.footer { 
+  margin-top:-71px;
+  animation: fadeInUp 1s ease; 
   height: 71px; /**footer height*/ 
   float: bottom;
+  position: absolute;
+  z-index: 1;  
+  width: 1980px; /**fixed width*/
 } 
 
 .footer p {

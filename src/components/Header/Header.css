@@ -12,7 +12,8 @@
 .header-icons {
   /* background-color: blue; */
   padding-left: 10px;
-  width: 675px; /**-10px = 675*/
+  padding-right: 10px;
+  width: 665px; /**-20px = 675*/
   height: 100%;
   float: right;
 }
@@ -43,9 +44,9 @@
   font-weight: 500;
 }
 .header-bed-content .bed-number {
-  font-size: 90px;
+  font-size: 105px;
   font-weight: 800;
-  margin-top: -10px;
+  margin-top: -25px;
 }
 .header-bed-content {
   display: block;
