@@ -1,6 +1,7 @@
 {
   "name": "ktph-pib",
   "version": "0.1.0",
+  "homepage": "https://sonnysaravillo26.github.io/ktph-pib",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

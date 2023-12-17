@@ -1,17 +1,52 @@
 /* Footer.css */
-.footer-left-content {
-  color: black;
-  width: 545px; /**based on partitionA*/  
+.rigthSide h3 {
+  font-size: 27px;
+}
+.rigthSide {
+  width: 430px;  
   display: block;
-  background-color: red; /**remove later*/
+  float: right;
+  text-align: right;
+  padding-right: 20px;
+}
+.leftSide {
+  width: 50px; 
+  display: block;
+  float: left;
+}
+.StatusPoint span {
+  font-size: 12px;
+  color: white;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  border: 1px solid gray;
+  background-color: #00af49; /* Replace desired background color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Text color */
+  font-size: 18px; /* Text size */
+}
+.footer-left-content {
+  color: black; 
+  width: 525px; /**based on partitionA*/  
+  display: block;
+  /*Hide unhide later - sonny**/
+  /* background-color: red;   */
   height: 100%;
   float: left;
+  text-align: left;
+  padding-left:20px;
 }
 .footer-blocker { 
   width: 1353px; /**based on partitionB*/
   height: 100%;
   display: block; 
-  background-color: rgb(0, 0, 0); 
+   /*Hide unhide later - sonny**/
+  /* background-color: rgb(0, 0, 0);  */
   margin-left:23px;
   float: left;
 }

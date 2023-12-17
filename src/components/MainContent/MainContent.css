@@ -1,9 +1,225 @@
 /* MainContent.css */
+.PartitionB-SectionB h1 {
+  font-weight: 700;
+  border-radius: 10px 10px;
+  width: 1295px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  padding: 8px 10px;
+  text-align: left;
+}
+.PartitionB-SectionB .SubContent-Image {  
+  width: 1295px; 
+  height: 91px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top:-20px;
+  margin-bottom: 45px;
+} 
+.PartitionB-SectionB .SubContent {  
+  width: 1295px; 
+  height: 91px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.PartitionB-SectionB .SubContent2 {  
+  width: 1295px; 
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.Box-Content2 {
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 7px;
+}
+.Box-Content2 h1 {
+  font-weight: 700;
+  font-size: 33px;
+  border-radius: 15px 15px; 
+  width: 591px;
+  max-width: 591px;
+  height: 35px;
+  max-height: 35px;
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  align-items: center;
+  border: 2px solid rgb(128, 128, 128);
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34); 
+  margin-top: -20px;
+  line-height: 33px;
+}
+.Box-Content-image {
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 7px;
+}
+.Box-Content {
+  display: block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 7px;
+}
+.Box-Content h1 {
+  font-weight: 700;
+  font-size: 33px;
+  border-radius: 15px 15px;
+  width: 270px;
+  max-width: 270px;
+  height: 75px;
+  max-height: 75px;
+  display: flex;
+  justify-content: center !important;
+  text-align: center !important;
+  align-items: center;
+  border: 2px solid rgb(128, 128, 128);
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34); 
+  margin-top: -20px;
+  line-height: 33px;
+}
+.Mtop {
+  margin-top: -25px;
+}
+.PcautionIconImg {
+  margin-left: 7px;
+  margin-right: 6px;
+}
+.PrecautionsIcons {
+  width: 1300px;
+  margin-top: -25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.PartitionB-SectionA h1 {
+  font-weight: 700;
+  border-radius: 10px 10px;
+  width: 1295px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  padding: 8px 10px;
+  text-align: left;
+}
+.Header-Box .Header-Box-Title2 {
+  font-size: 33px; 
+}
+
+.Header-Box .Header-Box-Title {
+  font-size: 33px;
+  background-color: #c7c7c7;
+}
+.PartitionA-SectionE h1 {
+  font-weight: 500;
+}
+.PartitionA-SectionE {
+  font-size: 31px;
+  width: 500px;
+  height: 150px;
+  display: block;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 15px;
+}
+.PartitionA-SectionE {
+  width: 500px;
+  padding-left: 20px;
+}
+.PatientIcon {
+  display: block;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.PartitionA-SectionD {
+  height: 150px;
+  width: 500px;
+  float: left;
+  text-align: left;
+  padding-left: 10px; /**icon has 10px*/
+  padding-right: 20px;
+  margin-top: -20px;
+  margin-bottom: 22px;
+}
+.Language-Content h1 {
+  font-weight: 700;
+  font-size: 33px;
+  border-radius: 15px 15px;
+  width: 227px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(128, 128, 128);
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  padding: 8px 10px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.PartitionA-SectionB p {
+  font-size: 45px;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: rgb(34, 34, 34);
+  height: 100px;
+  margin-top: -20px;
+  line-height: 50px;
+}
+.PartitionA-SectionB h1 {
+  font-weight: 700;
+  border-radius: 10px 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  padding: 8px 10px;
+}
+.PartitionA-SectionA p {
+  font-size: 45px;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: rgb(34, 34, 34);
+  height: 100px;
+  margin-top: -20px;
+  line-height: 50px;
+}
+.PartitionA-SectionA h1 {
+  font-weight: 700;
+  border-radius: 10px 10px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  color: rgb(34, 34, 34);
+  padding: 8px 10px;
+}
+.PartitionA-SectionB {
+  text-align: left;
+  display: block;
+  margin-top: -20px;
+}
+.PartitionA-SectionA {
+  text-align: left;
+  display: block;
+}
 .PartitionA {
   float: left;
   display: block;
   width: 545px;
-  height: 100%; 
+  height: 100%;
   /* background-color: #e8f1dc; */
   background: rgba(232, 241, 220, 0.7);
   border-top-right-radius: 20px;
@@ -13,23 +229,17 @@
   float: right;
   display: block;
   width: 1353px;
-  height: 100%; 
+  height: 100%;
   /* background-color: #e8f1dc; */
-  background: rgba(192, 192, 192, 0.3); 
-  border-top-left-radius: 20px; 
+  background: rgba(192, 192, 192, 0.2);
+  border-top-left-radius: 20px;
 }
 
 .main-content {
-  text-align: center;
   /* background-color: green; *remove later - so */
   animation: fadeIn 1s ease;
   /**Main content 795px + footer 71px;*/
   height: 866px;
-}
-
-.main-content p {
-  margin: 0;
-  padding: 0;
 }
 
 @keyframes fadeIn {
