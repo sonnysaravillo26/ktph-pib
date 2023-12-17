@@ -96,10 +96,15 @@
 }
 .PrecautionsIcons {
   width: 1300px;
+  height: 149px;
   margin-top: -25px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
+  text-align: left; 
+  display: block;
+}
+.PIcon-Image {
+  float: left;
 }
 .PartitionB-SectionA h1 {
   font-weight: 700;

@@ -25,8 +25,6 @@ function Footer() {
         </div>
       </div>
 
-      {/*blocker that can show/hide.*/}
-      <div className="footer-blocker"></div>
     </footer>
   );
 }
