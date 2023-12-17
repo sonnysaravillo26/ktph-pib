@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ktph-pib/static/css/main.5f627af1.css",
-    "main.js": "/ktph-pib/static/js/main.96b52230.js",
+    "main.css": "/ktph-pib/static/css/main.0c24843f.css",
+    "main.js": "/ktph-pib/static/js/main.5615da80.js",
     "static/js/787.61b7eed5.chunk.js": "/ktph-pib/static/js/787.61b7eed5.chunk.js",
     "static/media/bg.png": "/ktph-pib/static/media/bg.540d938efd61f2f90cbb.png",
-    "static/media/logo.svg": "/ktph-pib/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/icon.png": "/ktph-pib/static/media/icon.79fcd1c1c9142b10c8cd.png",
     "index.html": "/ktph-pib/index.html",
-    "main.5f627af1.css.map": "/ktph-pib/static/css/main.5f627af1.css.map",
-    "main.96b52230.js.map": "/ktph-pib/static/js/main.96b52230.js.map",
+    "main.0c24843f.css.map": "/ktph-pib/static/css/main.0c24843f.css.map",
+    "main.5615da80.js.map": "/ktph-pib/static/js/main.5615da80.js.map",
     "787.61b7eed5.chunk.js.map": "/ktph-pib/static/js/787.61b7eed5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f627af1.css",
-    "static/js/main.96b52230.js"
+    "static/css/main.0c24843f.css",
+    "static/js/main.5615da80.js"
   ]
 }
