@@ -188,7 +188,7 @@ function MainContent() {
           </div> */}
         </div>
 
-        {/* EFF and LOS  */}
+        {/* EFF and LOS  */} 
         <div className="PartitionA-SectionE animate__animated animate__fadeInLeft">
           <h1>
             EDD:
@@ -290,7 +290,7 @@ function MainContent() {
         </div>
 
         {/* Mobility  */}
-        <div className="PartitionB-SectionB Header-Box Mtop">
+        <div className="PartitionB-SectionB Header-Box Mtop2">
           <h1 className="Header-Box-Title">Mobility</h1>
           <div className="SubContent-Image">
             {/* Max of 4 - Mobility  */}

@@ -41,7 +41,7 @@ function Header() {
   };
 
   return (
-    <header className="header"> 
+    <header className="header">
       {/* ### Header Icon Controller ### */}
       <div className="Header-Controller">
         <span>header-controller </span>
@@ -57,29 +57,31 @@ function Header() {
         </div>
       </div>
 
-      <div className="header-name">
-        <h1
-          className="header-patient-name header-content-mid2
+      <div className="header-container">
+        <div className="header-name">
+          <h1
+            className="header-patient-name header-content-mid2
         animate__animated animate__fadeInDown"
-        >
-          Saravillo Sonny Berrientos
-        </h1>
-        <h1
-          className="header-patient-location  
-        animate__animated animate__fadeInDown"
-        >
-          <span className="header-patient-location-icon">
-            <img src={imgPinLocation} alt="Pin location" height={50} />
-          </span>
-          <span className="header-patient-location-text">Admission Block</span>
-        </h1>
-      </div>
+          >
+            Seranno Samuel Kenzo
+          </h1>
+          <h1
+            className="header-patient-location  
+        animate__animated animate__fadeInDown header-content-mid2"
+          >
+            <span className="header-patient-location-icon">
+              <img src={imgPinLocation} alt="Pin location" height={50} />
+            </span>
+            <span className="header-patient-location-text">
+              Admission Block
+            </span>
+          </h1>
+        </div>
+        <div className="header-icons">
+          {/* maximum of 4 icons, justify right */}
+          {HeaderIconDivs()}
 
-      <div className="header-icons">
-        {/* maximum of 4 icons, justify right */}
-        {HeaderIconDivs()}
-
-        {/* <h1
+          {/* <h1
           className="header-this-icon header-content-mid2
         animate__animated animate__flipInY"
         >
@@ -111,6 +113,7 @@ function Header() {
             <img src={imgSample} alt="header icon reference" />
           </span>
         </h1> */}
+        </div>
       </div>
     </header>
   );

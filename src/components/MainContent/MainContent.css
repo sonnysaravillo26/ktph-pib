@@ -2,144 +2,171 @@
 .PartitionB-SectionB h1 {
   font-weight: 700;
   border-radius: 10px 10px;
-  width: 1295px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15px;
+  margin-right: 15px;
   background-color: rgb(255, 255, 255);
   color: rgb(34, 34, 34);
   padding: 8px 10px;
   text-align: left;
+  clear: both;
 }
-.PartitionB-SectionB .SubContent-Image {  
-  width: 1295px; 
-  height: 91px;
-  margin-left: auto;
-  margin-right: auto; 
-  margin-top:-20px;
-  margin-bottom: 45px;
-} 
-.PartitionB-SectionB .SubContent {  
-  width: 1295px; 
+.PartitionB-SectionB .SubContent-Image {
+  max-width: 1295px;
+  width: 1295px;
   height: 91px;
   margin-left: auto;
   margin-right: auto;
-} 
-.PartitionB-SectionB .SubContent2 {  
-  width: 1295px; 
-  height: 110px;
+  margin-top: -20px;
+}
+.PartitionB-SectionB .SubContent {
+  max-width: 1295px;
+  width: 1295px;
+  height: 91px; 
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
+.PartitionB-SectionB .SubContent2 {
+  max-width: 1360px;
+  width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.PartitionB-SectionA {
+  max-width: 1360px;
+  width: 1360px;
+  height: 213px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Box-Content2 {
-  display: block;
+  width: 50%;
+  box-sizing: border-box;
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 7px;
+  text-align: center;
 }
+/* PatientCareCounter */
 .Box-Content2 h1 {
-  font-weight: 700;
-  font-size: 33px;
-  border-radius: 15px 15px; 
+  font-weight: 600;
+  font-size: 1.8vw;
+  border-radius: 15px 15px;
   width: 591px;
-  max-width: 591px;
   height: 35px;
-  max-height: 35px;
-  display: flex;
+  max-width: 80%;
+  max-height: 80vh;
+  resize: both;
+  display: inline-flex;
   justify-content: center !important;
   text-align: center !important;
   align-items: center;
   border: 2px solid rgb(128, 128, 128);
   background-color: rgb(255, 255, 255);
-  color: rgb(34, 34, 34); 
+  color: rgb(34, 34, 34);
   margin-top: -20px;
   line-height: 33px;
 }
+.Box-Content-image img {
+  width: 260px;
+  height: 89px;
+  max-width: 80%;
+  max-height: 80vh;
+  resize: both;
+  display: inline-flex;
+  justify-content: center !important;
+  text-align: center !important;
+  align-items: center;
+}
 .Box-Content-image {
-  display: block;
+  width: 25%;
+  box-sizing: border-box;
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 7px;
+  text-align: center;
 }
 .Box-Content {
-  display: block;
+  width: 25%;
+  box-sizing: border-box;
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-left: 7px;
+  text-align: center;
+  margin-bottom: -21px;
 }
 .Box-Content h1 {
-  font-weight: 700;
-  font-size: 33px;
+  font-weight: 600;
+  font-size: 1.8vw;
   border-radius: 15px 15px;
-  width: 270px;
-  max-width: 270px;
+  width: 240px;
   height: 75px;
-  max-height: 75px;
-  display: flex;
+  max-width: 80%;
+  max-height: 80vh;
+  resize: both;
+  display: inline-flex;
   justify-content: center !important;
   text-align: center !important;
   align-items: center;
   border: 2px solid rgb(128, 128, 128);
   background-color: rgb(255, 255, 255);
-  color: rgb(34, 34, 34); 
+  color: rgb(34, 34, 34);
   margin-top: -20px;
   line-height: 33px;
 }
 .Mtop {
   margin-top: -25px;
 }
+.Mtop2 {
+  margin-top: -35px;
+}
 .PcautionIconImg {
   margin-left: 7px;
   margin-right: 6px;
 }
+.PIcon-Image img {
+  width: 7.8vw;
+}
 .PrecautionsIcons {
-  width: 1300px;
-  height: 149px;
+  /* width: 1300px; */
+  max-width: 1310px;
+  width: auto;
+  height: auto;
+  min-height: 149px;
   margin-top: -25px;
   margin-left: auto;
   margin-right: auto;
-  text-align: left; 
+  text-align: left;
   display: block;
 }
 .PIcon-Image {
   float: left;
 }
+
 .PartitionB-SectionA h1 {
   font-weight: 700;
   border-radius: 10px 10px;
-  width: 1295px;
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 1295px; */
+  margin-left: 15px;
+  margin-right: 15px;
   background-color: rgb(255, 255, 255);
   color: rgb(34, 34, 34);
   padding: 8px 10px;
   text-align: left;
 }
 .Header-Box .Header-Box-Title2 {
-  font-size: 33px; 
+  font-size: 1.7vw;
 }
-
 .Header-Box .Header-Box-Title {
-  font-size: 33px;
+  font-size: 1.7vw;
   background-color: #c7c7c7;
 }
 .PartitionA-SectionE h1 {
   font-weight: 500;
 }
 .PartitionA-SectionE {
-  font-size: 31px;
-  width: 500px;
-  height: 150px;
+  clear: both;
+  font-size: 1.7vw;
+  height: 7.8vw;
+  width: 26vw;
   display: block;
   text-align: left;
   padding-left: 20px;
   line-height: 15px;
-}
-.PartitionA-SectionE {
-  width: 500px;
-  padding-left: 20px;
 }
 .PatientIcon {
   display: block;
@@ -147,9 +174,17 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.PatientIcon img {
+  width: 6.6vw;
+  /* flexible image  */
+}
+
 .PartitionA-SectionD {
-  height: 150px;
-  width: 500px;
+  /* height: 150px; */
+  /* width: 500px; */
+  height: 7.8vw;
+  width: auto;
   float: left;
   text-align: left;
   padding-left: 10px; /**icon has 10px*/
@@ -159,9 +194,9 @@
 }
 .Language-Content h1 {
   font-weight: 700;
-  font-size: 33px;
+  font-size: 1.8vw;
   border-radius: 15px 15px;
-  width: 227px;
+  width: 11.5vw;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -174,7 +209,7 @@
   margin-top: -20px;
 }
 .PartitionA-SectionB p {
-  font-size: 45px;
+  font-size: 2.3vw;
   padding-left: 20px;
   padding-right: 10px;
   color: rgb(34, 34, 34);
@@ -193,7 +228,8 @@
   padding: 8px 10px;
 }
 .PartitionA-SectionA p {
-  font-size: 45px;
+  /* font-size: 45px; */
+  font-size: 2.3vw;
   padding-left: 20px;
   padding-right: 10px;
   color: rgb(34, 34, 34);
@@ -223,8 +259,11 @@
 .PartitionA {
   float: left;
   display: block;
-  width: 545px;
-  height: 100%;
+  /* adjustable box  */
+  max-width: 545px;
+  max-height: 100%;
+  min-height: -webkit-fill-available;
+  width: auto;
   /* background-color: #e8f1dc; */
   background: rgba(232, 241, 220, 0.7);
   border-top-right-radius: 20px;
@@ -232,9 +271,11 @@
 
 .PartitionB {
   float: right;
+  margin-left: 15px;
   display: block;
-  width: 1353px;
-  height: 100%;
+  width: auto;
+  /* width: 1353px; */
+  /* height: 100%; */
   /* background-color: #e8f1dc; */
   background: rgba(192, 192, 192, 0.2);
   border-top-left-radius: 20px;
@@ -245,6 +286,7 @@
   animation: fadeIn 1s ease;
   /**Main content 795px + footer 71px;*/
   height: 866px;
+  display: flex;
 }
 
 @keyframes fadeIn {

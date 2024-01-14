@@ -17,25 +17,25 @@ function App() {
     setIsFullMediaSection(!isFullMediaSectionVisible);
   };
 
-  return (
-    <div className="App"> 
-      {/* ### Media Controller ### */}
-      <div className="Meida-Controller">
-        <button onClick={toggleFullMediaSectionVisibility}>
-          {isFullMediaSectionVisible ? "Hide Full-Media" : "Show Full-Media"}
-        </button>
-        <button onClick={toggleMediaSectionVisibility}>
-          {isMediaSectionVisible ? "Hide Media" : "Show Media"}
-        </button>
-      </div> 
-      {/* ### END - Media Controller ### */}
+  return ( 
+      <div className="App">
+        {/* ### Media Controller ### */}
+        <div className="Meida-Controller">
+          <button onClick={toggleFullMediaSectionVisibility}>
+            {isFullMediaSectionVisible ? "Hide Full-Media" : "Show Full-Media"}
+          </button>
+          <button onClick={toggleMediaSectionVisibility}>
+            {isMediaSectionVisible ? "Hide Media" : "Show Media"}
+          </button>
+        </div>
+        {/* ### END - Media Controller ### */}
 
-      {isMediaSectionVisible && <MediaSection />}
-      {isFullMediaSectionVisible && <FullMediaSection />}
+        {isMediaSectionVisible && <MediaSection />}
+        {isFullMediaSectionVisible && <FullMediaSection />}
 
-      <Header />
-      <MainContent />
-      <Footer />
+        <Header />
+        <MainContent />
+        <Footer /> 
     </div>
   );
 }

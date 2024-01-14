@@ -1,5 +1,15 @@
 # Note 
 
+1. run command
+` npm run `
+2. rebuild
+` npm run build `
+3. site destination
+`https://sonnysaravillo26.github.io/ktph-pib/`
+
+### Author
+Sonny
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
